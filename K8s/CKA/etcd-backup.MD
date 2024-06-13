@@ -18,10 +18,10 @@ etcdctl
 
 The following information is required to create a snapshot of etcd:
 
--etcd endpoint (–endpoints)
--ca certificate (–cacert)
--server certificate (–cert)
--server key (–key)
+-etcd endpoint (–endpoints) <br>
+-ca certificate (–cacert)<br>
+-server certificate (–cert)<br>
+-server key (–key)<br>
 
 You can obtain this information either by describing etcd pod that is running or by looking at its manifest that's present here: <br>
 /etc/kubernetes/manifests/etcd.yaml <br>
